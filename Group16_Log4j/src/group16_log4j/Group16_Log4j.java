@@ -4,19 +4,18 @@
     19127166 - Huỳnh Tuấn Kha
     19127565 - Nguyễn Quốc Thông
     19127600 - Lê Quốc Trọng
-*/
-
-
+ */
 package group16_log4j;
 
 import org.apache.log4j.Logger;
+
 /**
  *
  * @author huynh
  */
 public class Group16_Log4j {
 
-       // create a logger with main class
+    // create a logger with main class
     final static Logger logger = Logger.getLogger(Group16_Log4j.class);
 
     // using a simple function to run some level logger with a message string
@@ -29,13 +28,18 @@ public class Group16_Log4j {
         logger.fatal("This is FATAL level: " + message);
         logger.trace("This is TRACE level: " + message);
     }
-
     /**
      * @param args the command line arguments
      */
+    public void DemoFile(){
+        logger.debug("debug log");
+        logger.error("error log");
+        logger.info("info log");
+    }
     public static void main(String[] args) {
         Group16_Log4j log = new Group16_Log4j();
         log.getLoggerMessage("Hello world!");
+        log.DemoFile();
     }
 
 }

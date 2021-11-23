@@ -34,45 +34,69 @@ public class Group16_Log4j {
         logger.fatal("This is FATAL level: " + message);
         logger.trace("This is TRACE level: " + message);
     }
-    /**
-     * @param args the command line arguments
-     */
-    public void DemoFile(){
+
+    // demo
+    public void DemoFile() {
         logger.debug("debug log");
         logger.error("error log");
         logger.info("info log");
     }
-    
-    public void check_logger_Lv(){
-        if (logger.getLevel() == null) System.out.println("NULL");
-        else System.out.println("The level of logger is: " + logger.getLevel());
+
+    // check level of log
+    public void check_logger_Lv() {
+        if (logger.getLevel() == null) {
+            System.out.println("NULL");
+        } else {
+            System.out.println("The level of logger is: " + logger.getLevel());
+        }
     }
-    
-    public void try_Lv_log4j(Group16_Log4j log){
+
+    // using to check level with specific level log.
+    public void try_Lv_log4j(Group16_Log4j log) {
         logger.setLevel(Level.DEBUG);
         log.check_logger_Lv();
         log.getLoggerMessage("Hello world!");
         log.DemoFile();
-        
+
         logger.trace("trace: ");
         logger.warn("warn: now we change from DEBUG to ERROR");
         logger.fatal("fatal: ");
-        
+
         logger.setLevel(Level.ERROR);
         log.check_logger_Lv();
         log.getLoggerMessage("Hello world!");
         log.DemoFile();
     }
-    
+
+    // log file with error (Exception)
+    public void checkLogWithException() {
+        try {
+            double a = 5 / 0;
+            System.out.println("a = " + a);
+        } catch (ArithmeticException e) {
+            logger.debug("This is debug with exception: ", e);
+            logger.warn("This is debug with exception: ", e);
+            logger.info("This is debug with exception: ", e);
+            logger.fatal("This is debug with exception: ", e);
+            logger.error("This is debug with exception: ", e);
+        }
+    }
+
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) throws FileNotFoundException, IOException {
         Properties props = new Properties();
         props.load(new FileInputStream("src/log4j.properties"));
         PropertyConfigurator.configure(props);
+
         Group16_Log4j log = new Group16_Log4j();
-        log.getLoggerMessage("Hello world!");
+//        log.getLoggerMessage("Hello world!");
         //log.DemoFile();
-        
-        //log.try_Lv_log4j(log);
+
+//        log.try_Lv_log4j(log);
+
+        log.checkLogWithException();
     }
 
 }

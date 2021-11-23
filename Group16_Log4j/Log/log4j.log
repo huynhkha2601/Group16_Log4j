@@ -1,0 +1,79 @@
+2021-11-23 22:47:45 DEBUG Group16_Log4j:30 - This is DEBUG level: Hello world!
+2021-11-23 22:47:45 INFO  Group16_Log4j:31 - This is INFO level: Hello world!
+2021-11-23 22:47:45 WARN  Group16_Log4j:32 - This is WARN level: Hello world!
+2021-11-23 22:47:45 ERROR Group16_Log4j:33 - This is ERROR level: Hello world!
+2021-11-23 22:47:45 FATAL Group16_Log4j:34 - This is FATAL level: Hello world!
+2021-11-23 22:47:45 DEBUG Group16_Log4j:40 - debug log
+2021-11-23 22:47:45 ERROR Group16_Log4j:41 - error log
+2021-11-23 22:47:45 INFO  Group16_Log4j:42 - info log
+2021-11-23 22:47:45 WARN  Group16_Log4j:59 - warn: now we change from DEBUG to ERROR
+2021-11-23 22:47:45 FATAL Group16_Log4j:60 - fatal: 
+2021-11-23 22:47:45 ERROR Group16_Log4j:33 - This is ERROR level: Hello world!
+2021-11-23 22:47:45 FATAL Group16_Log4j:34 - This is FATAL level: Hello world!
+2021-11-23 22:47:45 ERROR Group16_Log4j:41 - error log
+2021-11-23 22:49:49 DEBUG Group16_Log4j:30 - This is DEBUG level: Hello world!
+2021-11-23 22:49:49 INFO  Group16_Log4j:31 - This is INFO level: Hello world!
+2021-11-23 22:49:49 WARN  Group16_Log4j:32 - This is WARN level: Hello world!
+2021-11-23 22:49:49 ERROR Group16_Log4j:33 - This is ERROR level: Hello world!
+2021-11-23 22:49:49 FATAL Group16_Log4j:34 - This is FATAL level: Hello world!
+2021-11-23 22:49:49 DEBUG Group16_Log4j:40 - debug log
+2021-11-23 22:49:49 ERROR Group16_Log4j:41 - error log
+2021-11-23 22:49:49 INFO  Group16_Log4j:42 - info log
+2021-11-23 22:49:49 WARN  Group16_Log4j:59 - warn: now we change from DEBUG to ERROR
+2021-11-23 22:49:49 FATAL Group16_Log4j:60 - fatal: 
+2021-11-23 22:49:49 ERROR Group16_Log4j:33 - This is ERROR level: Hello world!
+2021-11-23 22:49:49 FATAL Group16_Log4j:34 - This is FATAL level: Hello world!
+2021-11-23 22:49:49 ERROR Group16_Log4j:41 - error log
+2021-11-23 22:49:58 DEBUG Group16_Log4j:30 - This is DEBUG level: Hello world!
+2021-11-23 22:49:58 INFO  Group16_Log4j:31 - This is INFO level: Hello world!
+2021-11-23 22:49:58 WARN  Group16_Log4j:32 - This is WARN level: Hello world!
+2021-11-23 22:49:58 ERROR Group16_Log4j:33 - This is ERROR level: Hello world!
+2021-11-23 22:49:58 FATAL Group16_Log4j:34 - This is FATAL level: Hello world!
+2021-11-23 22:49:58 DEBUG Group16_Log4j:40 - debug log
+2021-11-23 22:49:58 ERROR Group16_Log4j:41 - error log
+2021-11-23 22:49:58 INFO  Group16_Log4j:42 - info log
+2021-11-23 22:49:58 WARN  Group16_Log4j:59 - warn: now we change from DEBUG to ERROR
+2021-11-23 22:49:58 FATAL Group16_Log4j:60 - fatal: 
+2021-11-23 22:49:58 ERROR Group16_Log4j:33 - This is ERROR level: Hello world!
+2021-11-23 22:49:58 FATAL Group16_Log4j:34 - This is FATAL level: Hello world!
+2021-11-23 22:49:58 ERROR Group16_Log4j:41 - error log
+2021-11-23 22:57:34 DEBUG Group16_Log4j:77 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 WARN  Group16_Log4j:78 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 INFO  Group16_Log4j:79 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 FATAL Group16_Log4j:80 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 ERROR Group16_Log4j:81 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 DEBUG Group16_Log4j:77 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 WARN  Group16_Log4j:78 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 INFO  Group16_Log4j:79 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 FATAL Group16_Log4j:80 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)
+2021-11-23 22:57:34 ERROR Group16_Log4j:81 - This is debug with exception: 
+java.lang.ArithmeticException: / by zero
+	at group16_log4j.Group16_Log4j.checkLogWithException(Group16_Log4j.java:74)
+	at group16_log4j.Group16_Log4j.main(Group16_Log4j.java:99)

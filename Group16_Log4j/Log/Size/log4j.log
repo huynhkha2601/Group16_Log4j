@@ -1,0 +1,4 @@
+2021-11-23 22:20:21 INFO  This is INFO level: Hello world!
+2021-11-23 22:20:21 WARN  This is WARN level: Hello world!
+2021-11-23 22:20:21 ERROR This is ERROR level: Hello world!
+2021-11-23 22:20:21 FATAL This is FATAL level: Hello world!

@@ -1,0 +1,7 @@
+2021-11-25 22:28:33 ERROR This is ERROR level: Hello world!
+2021-11-25 22:28:33 FATAL This is FATAL level: Hello world!
+2021-11-25 22:28:34 DEBUG This is DEBUG level: Hello world!
+2021-11-25 22:28:34 INFO  This is INFO level: Hello world!
+2021-11-25 22:28:34 WARN  This is WARN level: Hello world!
+2021-11-25 22:28:34 ERROR This is ERROR level: Hello world!
+2021-11-25 22:28:34 FATAL This is FATAL level: Hello world!

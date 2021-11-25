@@ -1,0 +1,17 @@
+2021-11-23 22:27:55 INFO  This is INFO level: Hello world!
+2021-11-23 22:27:55 WARN  This is WARN level: Hello world!
+2021-11-23 22:27:55 ERROR This is ERROR level: Hello world!
+2021-11-23 22:27:55 FATAL This is FATAL level: Hello world!
+2021-11-23 22:27:56 DEBUG This is DEBUG level: Hello world!
+2021-11-23 22:27:56 INFO  This is INFO level: Hello world!
+2021-11-23 22:27:56 WARN  This is WARN level: Hello world!
+2021-11-23 22:27:56 ERROR This is ERROR level: Hello world!
+2021-11-23 22:27:56 FATAL This is FATAL level: Hello world!
+2021-11-23 22:27:56 DEBUG This is DEBUG level: Hello world!
+2021-11-23 22:27:56 INFO  This is INFO level: Hello world!
+2021-11-23 22:27:56 WARN  This is WARN level: Hello world!
+2021-11-23 22:27:56 ERROR This is ERROR level: Hello world!
+2021-11-23 22:27:56 FATAL This is FATAL level: Hello world!
+2021-11-23 22:27:57 DEBUG This is DEBUG level: Hello world!
+2021-11-23 22:27:57 INFO  This is INFO level: Hello world!
+2021-11-23 22:27:57 WARN  This is WARN level: Hello world!

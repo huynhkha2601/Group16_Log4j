@@ -7,8 +7,13 @@
  */
 package group16_log4j;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.apache.log4j.Level;
+import org.apache.log4j.PropertyConfigurator;
 
 /**
  *
@@ -59,12 +64,15 @@ public class Group16_Log4j {
         log.DemoFile();
     }
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException, IOException {
+        Properties props = new Properties();
+        props.load(new FileInputStream("src/log4j.properties"));
+        PropertyConfigurator.configure(props);
         Group16_Log4j log = new Group16_Log4j();
-        //log.getLoggerMessage("Hello world!");
+        log.getLoggerMessage("Hello world!");
         //log.DemoFile();
         
-        log.try_Lv_log4j(log);
+        //log.try_Lv_log4j(log);
     }
 
 }
